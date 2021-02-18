@@ -1,0 +1,3 @@
+FROM mysql:latest
+
+ADD ./sql/trucorp-db.sql /docker-entrypoint-initdb.d/
